@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons'; //tachyons can go here.  
+                   //will be used by all child components.
 
 ReactDOM.render(
   <React.StrictMode>
